@@ -1,8 +1,5 @@
 package com.urise.webapp.model;
 
-/**
- * Initial resume class
- */
 public class Resume {
 
     public String getUuid() {
@@ -14,7 +11,7 @@ public class Resume {
     }
 
     // Unique identifier
-    private String uuid;
+    public String uuid;
 
     @Override
     public String toString() {
